@@ -8,7 +8,7 @@
 <!--
   ============================================================
   TANIA MEROLLA  PORTFOLIO  (v3  loud + embeds)
-  HOW TO EDIT (you've got this):
+  NOTE TO SELF, HOW TO EDIT THIS IN THE FUTURE:
    * All editable text lives in the HTML. Search the word EDIT
      in any code editor to jump to the spots you'll want to change.
    * Colors and fonts are set once near the top of the style block,
@@ -245,7 +245,7 @@ img.about__photo{ padding:0; object-fit:cover; display:block; }
 
 <body>
 
-  <!-- ANNOUNCEMENT TICKER  (EDIT the scrolling words here; duplicated once so the loop is seamless) -->
+  <!-- ANNOUNCEMENT TICKER  (YOU CAN EDIT the scrolling words here; duplicated once so the loop is seamless) -->
   <div class="ticker" aria-hidden="true">
     <div class="ticker__track">
       <span><span class="star">&#10022;</span> OPEN TO WORK</span><span>COMMUNICATIONS</span><span><span class="star">&#10022;</span> SOCIAL &amp; PAID MEDIA</span><span>EDITORIAL</span><span><span class="star">&#10022;</span> VIDEO PRODUCTION</span><span>PUBLIC SPEAKING</span><span><span class="star">&#10022;</span> READY WHEN YOU ARE</span>
@@ -614,16 +614,12 @@ img.about__photo{ padding:0; object-fit:cover; display:block; }
   <!-- Embedded résumé PDF (base64) + click handler so the button works in a single standalone file -->
 <!--
 ============================================================
-HOW TO SWAP IN THE FULL CV
+FOR FUTURE ME: HOW TO SWAP IN THE FULL CV
 ============================================================
-Your file has a line that looks like this, near the bottom,
-right before your closing </body> tag:
+This file has a line that looks like this, near the bottom,
+right before the closing </body> tag:
 
   <script id="resumeData" type="application/octet-stream">PLACEHOLDER_BASE64</script>
-
-(It might currently have a long string instead of "PLACEHOLDER_BASE64" —
-that's the OLD resume's data. Either way, replace everything between
-the > and < with the block below.)
 
 STEPS:
 1. Open index.html for editing.
@@ -631,11 +627,10 @@ STEPS:
 3. You'll land on that <script id="resumeData"> line.
 4. Select everything between ">" and "</script>" on that line
    (the old base64 text, or the word PLACEHOLDER_BASE64).
-5. Delete it, and paste in the single line below in its place.
-6. Save, commit, push.
+5. DELETE IT (seriously), and paste in the single line below in its place.
+6. Save it and hope it runs.
 
-That's it — the "Grab the full résumé" button on your site will now
-open this new CV instead of the old one. No other code changes needed.
+That's literally all you have to do, Tania. 
 ============================================================
 -->
 
